@@ -1,0 +1,590 @@
+<!doctype html>
+<html>
+	<title></title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/screen.css">
+
+</head>
+
+<body>
+<svg style="display: none">
+  <symbol id="s-iconBurger" viewBox="0 0 15 15">
+    <g>
+      <rect y="3.25" width="15" height="1.33" rx="0.67" ry="0.67" fill="#fff"/>
+      <rect y="6.83" width="15" height="1.33" rx="0.67" ry="0.67" fill="#fff"/>
+      <rect y="10.42" width="15" height="1.33" rx="0.67" ry="0.67" fill="#fff"/>
+    </g>
+  </symbol>
+</svg>
+ 
+<svg style="display: none">
+  <symbol id="s-iconFavorites" viewBox="0 0 15 15">
+    <path class="cls-1" d="M13.45,5.29a3.08,3.08,0,0,0-.24-1.16,3.07,3.07,0,0,0-5.68.25,3.28,3.28,0,0,0-3-2A3.14,3.14,0,0,0,1.84,4a3.1,3.1,0,0,0-.28,1.26c0,2.62,5.66,7.12,6,7.37C7.9,12.36,13.43,7.84,13.45,5.29Z" fill="#fff"/>
+  </symbol>
+</svg>
+
+<svg style="display: none">
+  <symbol id="s-iconBasket" viewBox="0 0 15 15">
+    <g>
+      <rect x="4.04" y="4.36" width="9.45" height="1" rx="0.5" ry="0.5" fill="#fff"/>
+      <rect x="-0.85" y="6.12" width="10.58" height="1" rx="0.5" ry="0.5" transform="translate(10.13 1.03) rotate(79.31)" fill="#fff"/>
+      <rect x="9.6" y="6.46" width="5.34" height="1" rx="0.5" ry="0.5" transform="matrix(-0.34, 0.94, -0.94, -0.34, 22.94, -2.26)" fill="#fff"/>
+      <rect x="6.91" y="6.38" width="4.93" height="1" rx="0.49" ry="0.49" transform="matrix(-0.34, 0.94, -0.94, -0.34, 19, 0.35)" fill="#fff"/>
+      <rect x="4.06" y="6.32" width="5.03" height="1" rx="0.34" ry="0.34" transform="translate(15.21 2.91) rotate(109.58)" fill="#fff"/>
+      <rect x="4.42" y="8.49" width="7.59" height="1" rx="0.5" ry="0.5" fill="#fff"/>
+      <rect x="4.31" y="6.46" width="8.09" height="1" rx="0.49" ry="0.49" fill="#fff"/>
+      <rect x="4.82" y="10.83" width="7.44" height="1" rx="0.5" ry="0.5" fill="#fff"/>
+      <rect x="5.58" y="12.61" width="1" height="1" rx="0.5" ry="0.5" fill="#fff"/>
+      <rect x="10.24" y="12.61" width="1" height="1" rx="0.5" ry="0.5" fill="#fff"/>
+      <rect x="1.48" y="1.57" width="2.61" height="1" rx="0.5" ry="0.5" transform="translate(-0.4 0.68) rotate(-13.08)" fill="#fff"/>
+    </g>
+  </symbol>
+</svg>
+
+<svg style="display: none">
+  <symbol id="s-iconSearch" viewBox="0 0 15 15">
+    <rect x="6.25" y="10.4" width="9.3" height="1" rx="0.43" ry="0.43" transform="translate(10.9 26.31) rotate(-135)" fill="#9a7ce2"/>
+    <circle class="a" cx="4.97" cy="4.97" r="4.12" stroke="#9a7ce2" fill="none"/>
+  </symbol>
+</svg>
+
+<svg style="display: none">
+  <symbol id="s-iconBack" viewBox="0 0 15 15">
+    <rect x="1.22" y="6.83" width="13.19" height="1.33" rx="0.61" ry="0.61" fill="#fff"/>
+    <rect x="-0.03" y="8.47" width="5.97" height="1.33" rx="0.48" ry="0.48" transform="translate(7.33 0.59) rotate(45)" fill="#fff"/>
+    <rect x="-0.03" y="5.07" width="5.97" height="1.33" rx="0.48" ry="0.48" transform="translate(-3.19 3.77) rotate(-45)" fill="#fff"/>
+  </symbol>
+</svg>
+<header>
+  <div class="wrap">
+    <div class="left_col">
+      <a href="#" class="burger_menu">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconBurger"></use>
+          </svg>
+        </div>Меню
+      </a>
+      <div class="menu_popup_overlay">
+        <div class="menu_content">
+          <div class="icon_close">
+            <a href="#" class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconBack"></use>
+              </svg>
+            </a>
+          </div>
+          <a href="/" class="logo"><img src="img/logo_fb-mobile.png" alt=""></a>
+          <div class="menu_block">
+            <div class="heading">Каталог</div>
+            <ul class="group">
+              <li><a href="#">Верхняя одежда</a></li>
+              <li><a href="#" class="novelty">Новинки</a></li>
+              <li><a href="#" class="sale">Распродажа</a></li>
+              <li><a href="#">Футболки <span class="mark">SALE</span></a></li>
+              <li><a href="#">Платья</a></li>
+              <li><a href="#">Джинсы</a></li>
+              <li><a href="#">Брюки</a></li>
+            </ul>
+          </div>
+          <div class="menu_block">
+            <div class="heading">Полезная информация</div>
+            <ul class="group">
+              <li><a href="#" class="contacts">Контакты</a></li>
+              <li><a href="#" class="shops">Наши магазины</a></li>
+              <li><a href="#">Доставка по РБ</a></li>
+              <li><a href="#">Оплата <span class="mark">Рассрочка</span></a></li>
+            </ul>
+          </div>
+          <div class="menu_block">
+            <div class="heading">Профиль</div>
+            <ul class="group">
+              <li><a href="#" class="personal">Личный кабинет</a></li>
+              <li><a href="#">Информация о заказах</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right_col">
+      <a href="#" class="favorites"><div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconFavorites"></use>
+        </svg>
+      </div>Избранное</a>
+      <a href="#" class="basket"><div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconBasket"></use>
+        </svg>
+      </div><span class="number">2</span>Корзина</a>
+    </div>
+    <div class="logo_block"><a href="/" class="logo"><img src="img/logo_horizontal.psb.png" alt=""></a></div>
+    
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="top_block">
+      <nav>
+        <ul class="index_nav">
+          <li><a href="#">Кофты</a></li>
+          <li><a href="#">Джинсы</a></li>
+          <li><a href="#">Пальто</a></li>
+          <li><a href="#">Куртки</a></li>
+          <li><a href="#">Свитера</a></li>
+          <li><a href="#">Свитшоты</a></li>
+          <li><a href="#" class="novelty">Новинки</a></li>
+          <li><a href="#" class="sale">Распродажа</a></li>
+        </ul>
+      </nav>
+      <div class="search_block">
+        <input type="search" name="search" placeholder="Что вы ищите?" value=""> 
+		<button type="button" class="search">
+		  <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearch"></use>
+          </svg>
+		</button>
+      </div>
+    </div>
+    <div class="main_slider">
+      <div class="slide"><img src="img/main_slider/slide1.jpg" alt=""></div>
+      <div class="slide"><img src="img/main_slider/slide1.jpg" alt=""></div>
+      <div class="slide"><img src="img/main_slider/slide1.jpg" alt=""></div>
+    </div>
+    <section class="clothes_block">
+      <div class="title">Модная одежда со всего мира</div>
+      <div class="installment"><img src="img/installment.jpg" alt=""></div>
+      <div class="ladieswear">
+        <div class="subtitle">Женская одежда</div>
+        <a href="#" class="all_categories">Все категории</a>
+        <div class="row categories">
+          <div class="col">
+            <a href="#" class="clothes_item">
+              <img src="img/clothes/cat1.jpg" alt="">
+              <div class="overlay"><span class="category_name">Джинсы</span></div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#" class="clothes_item">
+              <img src="img/clothes/cat1.jpg" alt="">
+              <div class="overlay"><span class="category_name">Джемпера</span></div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#" class="clothes_item">
+              <img src="img/clothes/cat1.jpg" alt="">
+              <div class="overlay"><span class="category_name">Платья</span></div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#" class="clothes_item">
+              <img src="img/clothes/cat1.jpg" alt="">
+              <div class="overlay"><span class="category_name">Желетки</span></div>
+            </a>
+          </div>
+        </div>
+        <div class="goods_block">
+          <div class="subtitle">Новинки</div>
+          <div class="row goods_slider">
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites on"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price discount">80 р.<span class="old_price">130 р.</span></div>
+                  <a href="#" class="name">Трикотажное платье с длинным рукавом</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="goods_block">
+          <div class="subtitle">Хиты продаж</div>
+          <div class="row goods_slider">
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites on"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price discount">80 р.<span class="old_price">130 р.</span></div>
+                  <a href="#" class="name">Трикотажное платье с длинным рукавом</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item_prod">
+                <a href="#" class="img_block">
+                  <div class="icon_favoirites"></div>
+                  <img src="img/goods/img1.jpg" alt="">
+                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
+                </a>
+                <div class="text_block">
+                  <div class="price">80 р.</div>
+                  <a href="#" class="name">Морское платье</a>
+                  <div class="sizes">
+                    <span class="size">XS</span>
+                    <span class="size">S</span>
+                    <span class="size">M</span>
+                  </div>
+                  <div class="colors">
+                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
+                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="/" class="footer_logo"><img src="img/logo_fb.png" alt=""></a>
+    <a href="#" class="about">О нас</a>
+    <a href="#" class="shops">Наши магазины</a>
+    <a href="#" class="delivery">Условия доставки</a>
+    <div class="socials_block">
+      <a href="#" class="item"><img src="img/icons/icon_insta.png" alt=""></a>
+      <a href="#" class="item"><img src="img/icons/icon_vk.png" alt=""></a>
+      <a href="#" class="item"><img src="img/icons/icon_fb.png" alt=""></a>
+    </div>
+  </div>
+</footer>
+<script src="js/common.js"></script>
+</body>
+</html>
