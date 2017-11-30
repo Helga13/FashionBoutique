@@ -46,6 +46,10 @@ $(document).ready(function () {
     $('.menu_content').click(function(e) {
 		e.stopPropagation();
 	});
+
+  // matchHeight
+
+  $('.goods_block .col').matchHeight();
   
   
   

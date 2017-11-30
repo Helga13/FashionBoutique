@@ -86,11 +86,12 @@ main{
 .row{
   margin: 0 -10px;
   font-size: 0;
-  .col{
-    padding: 0 10px;
-    display: inline-block;
-    vertical-align: top;
-  }
+}
+
+.col{
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .btn {
@@ -139,6 +140,7 @@ header{
   color: #999;
   font-size: 18px;
   padding: 11px 0;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
   .icon{
     border-radius: 50%;
     background-color: #444;
@@ -406,12 +408,9 @@ footer{
     font-size: 18px;
     display: inline-block;
     vertical-align: middle;
-    opacity: .7;
-    transition: opacity .3s ease;
     &:hover,
     &:focus,
     &:active{
-      opacity: 1;
     }
   }
   .about{
@@ -440,11 +439,64 @@ footer{
       border-radius: 50%;
       position: relative;
       margin-right: 29px;
-      img{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+      padding: 8px;
+      transition: background-image .3s ease;
+      &.item_insta{
+        background-image: url('../img/icons/icon_insta.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        &:hover,
+        &:focus,
+        &:active{
+          background-image: url('../img/icons/icon_insta-hover.png');
+        }
+      }
+      &.item_vk{
+        background-image: url('../img/icons/icon_vk.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        &:hover,
+        &:focus,
+        &:active{
+          background-image: url('../img/icons/icon_vk-hover.png');
+        }
+      }
+      &.item_fb{
+        background-image: url('../img/icons/icon_fb.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        &:hover,
+        &:focus,
+        &:active{
+          background-image: url('../img/icons/icon_fb-hover.png');
+        }
+      }
+    }
+  }
+}
+
+/* breadcrumbs */
+
+.breadcrumbs{
+  padding-bottom: 10px;
+  .crumb{
+    color: #555;
+    font-size: 18px;
+    padding-right: 25px;
+    position: relative;
+    display: inline-block;
+    &:after{
+      content: '/';
+      position: absolute;
+      right: 9px;
+    }
+    a{
+      color: #7f64c2;
+    }
+    &.last_crumb{
+      padding-right: 0;
+      &:after{
+        display: none;;
       }
     }
   }
@@ -496,6 +548,9 @@ footer{
   margin-top: 20px;
   line-height: 0;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  img{
+    width: 100%;
+  }
 }
 
 .ladieswear{
@@ -528,6 +583,9 @@ footer{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     display: flex;
     position: relative;
+    img{
+      width: 100%;
+    }
     .overlay{
       position: absolute;
       display: flex;
@@ -685,6 +743,89 @@ footer{
   .col{
     padding-top: 6.5px;
     padding-bottom: 6.5px;
+  }
+  .item_prod{
+    height: 100%;
+  }
+}
+
+.left_catalog_col{
+  width: 240px;
+  padding-top: 43px;
+  .info_block{
+    margin: 0 -2.5px;
+  }
+  .delivery,
+  .cashless{
+    font-size: 14px;
+    line-height: 17px;
+    color: #7f64c2;
+    text-align:   center;
+    display: inline-block;
+    border: 1px solid #eee;
+    width: calc(50% - 5px);
+    margin: 0 2.5px;
+    padding: 20px 10px 16px;
+    .img{
+      max-width: 40px;
+      margin: 0 auto;
+      height: 34px;
+      margin-bottom: 10px;
+    }
+    svg{
+      width: 100%; 
+      height: 100%;
+    }
+  }
+}
+
+.catalog_nav{
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  border-radius: 3px;
+  margin-top: 20px;
+  li{
+    border-bottom: 1px solid #c1c1c1;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+  a{
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    background: url(../img/icons/icon_right.png) right 13px center no-repeat,#fff;
+    padding: 14px 20px 14px 10px;
+  }
+  .novelty{
+    padding-left: 40px;
+    background: url(../img/icons/icon_novelty.png) left 10px top 13px no-repeat; 
+  }
+  .sale{
+    padding-left: 40px;
+    background: url(../img/icons/icon_sale.png) left 10px top 15px no-repeat; 
+  }
+  .mark{
+    color: #fff;
+    background-color: #e16383;
+    border-radius: 14.5px;
+    padding: 5px 10px 3px;
+    margin-left: 6px;
+  }
+}
+
+.product_catalog{
+  width: calc(100% - 240px);
+  padding-top: 42px;
+  .title{
+    text-align: left;
+  }
+}
+
+.goods_block{
+  .col{
+    width: 20%;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
   .item_prod{
     height: 100%;
