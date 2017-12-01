@@ -1,169 +1,11 @@
 <!doctype html>
 <html>
 	<title></title>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="stylesheet" href="css/screen.css">
-
-</head>
+//= includes/head.html
 
 <body>
-<svg style="display: none">
-  <symbol id="s-iconBurger" viewBox="0 0 15 15">
-    <g>
-      <rect y="3.25" width="15" height="1.33" rx="0.67" ry="0.67" fill="#fff"/>
-      <rect y="6.83" width="15" height="1.33" rx="0.67" ry="0.67" fill="#fff"/>
-      <rect y="10.42" width="15" height="1.33" rx="0.67" ry="0.67" fill="#fff"/>
-    </g>
-  </symbol>
-</svg>
- 
-<svg style="display: none">
-  <symbol id="s-iconFavorites" viewBox="0 0 15 15">
-    <path class="cls-1" d="M13.45,5.29a3.08,3.08,0,0,0-.24-1.16,3.07,3.07,0,0,0-5.68.25,3.28,3.28,0,0,0-3-2A3.14,3.14,0,0,0,1.84,4a3.1,3.1,0,0,0-.28,1.26c0,2.62,5.66,7.12,6,7.37C7.9,12.36,13.43,7.84,13.45,5.29Z" fill="#fff"/>
-  </symbol>
-</svg>
-
-<svg style="display: none">
-  <symbol id="s-iconBasket" viewBox="0 0 15 15">
-    <g>
-      <rect x="4.04" y="4.36" width="9.45" height="1" rx="0.5" ry="0.5" fill="#fff"/>
-      <rect x="-0.85" y="6.12" width="10.58" height="1" rx="0.5" ry="0.5" transform="translate(10.13 1.03) rotate(79.31)" fill="#fff"/>
-      <rect x="9.6" y="6.46" width="5.34" height="1" rx="0.5" ry="0.5" transform="matrix(-0.34, 0.94, -0.94, -0.34, 22.94, -2.26)" fill="#fff"/>
-      <rect x="6.91" y="6.38" width="4.93" height="1" rx="0.49" ry="0.49" transform="matrix(-0.34, 0.94, -0.94, -0.34, 19, 0.35)" fill="#fff"/>
-      <rect x="4.06" y="6.32" width="5.03" height="1" rx="0.34" ry="0.34" transform="translate(15.21 2.91) rotate(109.58)" fill="#fff"/>
-      <rect x="4.42" y="8.49" width="7.59" height="1" rx="0.5" ry="0.5" fill="#fff"/>
-      <rect x="4.31" y="6.46" width="8.09" height="1" rx="0.49" ry="0.49" fill="#fff"/>
-      <rect x="4.82" y="10.83" width="7.44" height="1" rx="0.5" ry="0.5" fill="#fff"/>
-      <rect x="5.58" y="12.61" width="1" height="1" rx="0.5" ry="0.5" fill="#fff"/>
-      <rect x="10.24" y="12.61" width="1" height="1" rx="0.5" ry="0.5" fill="#fff"/>
-      <rect x="1.48" y="1.57" width="2.61" height="1" rx="0.5" ry="0.5" transform="translate(-0.4 0.68) rotate(-13.08)" fill="#fff"/>
-    </g>
-  </symbol>
-</svg>
-
-<svg style="display: none">
-  <symbol id="s-iconBack" viewBox="0 0 15 15">
-    <rect x="1.22" y="6.83" width="13.19" height="1.33" rx="0.61" ry="0.61" fill="#fff"/>
-    <rect x="-0.03" y="8.47" width="5.97" height="1.33" rx="0.48" ry="0.48" transform="translate(7.33 0.59) rotate(45)" fill="#fff"/>
-    <rect x="-0.03" y="5.07" width="5.97" height="1.33" rx="0.48" ry="0.48" transform="translate(-3.19 3.77) rotate(-45)" fill="#fff"/>
-  </symbol>
-</svg>
-
-<svg style="display: none">
-  <symbol id="s-iconSearch" viewBox="0 0 15 15">
-    <rect x="6.25" y="10.4" width="9.3" height="1" rx="0.43" ry="0.43" transform="translate(10.9 26.31) rotate(-135)" fill="#9a7ce2"/>
-    <circle class="a" cx="4.97" cy="4.97" r="4.12" stroke="#9a7ce2" fill="none"/>
-  </symbol>
-</svg>
-
-<svg style="display: none">
-  <symbol id="s-iconSearchHeader" viewBox="0 0 15 15">
-    <rect x="6.25" y="10.4" width="9.3" height="1" rx="0.43" ry="0.43" transform="translate(10.9 26.31) rotate(-135)" fill="#fff"/>
-    <circle class="a" cx="4.97" cy="4.97" r="4.12" stroke="#fff" fill="none"/>
-  </symbol>
-</svg>
-
-<svg style="display: none">
-  <symbol id="s-iconDelivery" viewBox="0 0 512 512">
-    <g>
-      <path d="M119.467,349.867c-14.138,0-25.6,11.462-25.6,25.6s11.461,25.6,25.6,25.6s25.6-11.461,25.6-25.6     C145.051,361.335,133.599,349.882,119.467,349.867z M119.467,384c-4.713,0-8.533-3.82-8.533-8.533s3.82-8.533,8.533-8.533     s8.533,3.82,8.533,8.533C127.995,380.178,124.178,383.995,119.467,384z" data-original="#555" class="active-path" fill="#555"/>
-      <path d="M392.533,349.867c-14.138,0-25.6,11.462-25.6,25.6s11.462,25.6,25.6,25.6c14.138,0,25.6-11.461,25.6-25.6     C418.118,361.335,406.665,349.882,392.533,349.867z M392.533,384c-4.713,0-8.533-3.82-8.533-8.533s3.821-8.533,8.533-8.533     c4.713,0,8.533,3.82,8.533,8.533C401.062,380.178,397.244,383.995,392.533,384z" data-original="#555" class="active-path" fill="#555"/>
-      <path d="M505.496,228.4l-58.783-66.2c-4.87-5.484-11.858-8.615-19.192-8.6h-77.654v-51.2c-0.015-14.132-11.468-25.585-25.6-25.6     H25.6C11.468,76.815,0.015,88.268,0,102.4v221.867c-0.001,2.263,0.898,4.434,2.499,6.035c1.6,1.6,3.771,2.499,6.035,2.499h8.533     v25.6c0.015,14.132,11.468,25.585,25.6,25.6h17.748c4.206,29.38,29.372,51.2,59.052,51.2s54.846-21.82,59.052-51.2h154.964     c4.206,29.38,29.372,51.2,59.052,51.2c29.68,0,54.846-21.82,59.052-51.2H486.4c14.132-0.015,25.585-11.468,25.6-25.6V245.417     C511.994,239.138,509.679,233.082,505.496,228.4z M17.067,315.733V102.4c0.005-4.711,3.822-8.529,8.533-8.533h298.667     c4.711,0.005,8.529,3.822,8.533,8.533v213.333H17.067z M60.415,366.933H42.667c-4.711-0.005-8.529-3.822-8.533-8.533v-25.6h43.61     C68.37,341.962,62.279,353.959,60.415,366.933z M119.467,418.133c-23.564,0-42.667-19.103-42.667-42.667     S95.903,332.8,119.467,332.8s42.667,19.103,42.667,42.667C162.106,399.019,143.019,418.106,119.467,418.133z M204.8,366.933     h-26.282c-1.864-12.974-7.954-24.972-17.328-34.133h43.61V366.933z M281.6,366.933h-59.733V332.8H281.6V366.933z      M333.482,366.933h-34.815V332.8h52.143C341.436,341.962,335.346,353.959,333.482,366.933z M392.533,418.133     c-23.564,0-42.667-19.103-42.667-42.667s19.102-42.667,42.667-42.667c23.564,0,42.667,19.103,42.667,42.667     C435.172,399.019,416.086,418.106,392.533,418.133z M494.933,358.4c-0.005,4.711-3.822,8.529-8.533,8.533h-34.815     c-4.255-29.353-29.391-51.147-59.052-51.2h-42.667V170.667H384V256c0.015,14.132,11.468,25.585,25.6,25.6h85.333V358.4z      M494.933,264.533H409.6c-4.711-0.005-8.529-3.822-8.533-8.533v-85.333h26.454c2.45-0.014,4.788,1.024,6.421,2.85l58.804,66.225     c1.4,1.56,2.178,3.579,2.188,5.675V264.533z" data-original="#555" class="active-path" fill="#555"/>
-    </g>
-  </symbol>
-</svg>
-
-<svg style="display: none">
-  <symbol id="s-iconСashless" viewBox="0 0 512 512">
-    <g>
-      <path d="M272.067,336.147H408.6c5.12,0,8.533-3.413,8.533-8.533v-76.8c0-5.12-3.413-8.533-8.533-8.533H272.067     c-5.12,0-8.533,3.413-8.533,8.533v76.8C263.533,332.733,266.947,336.147,272.067,336.147z M280.6,259.347h119.467v59.733H280.6     V259.347z" fill="#555555"/>
-      <path d="M41.667,225.213h68.267c5.12,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533H41.667     c-5.12,0-8.533,3.413-8.533,8.533S36.547,225.213,41.667,225.213z" fill="#555555"/>
-      <path d="M144.067,225.213h68.267c5.12,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533h-68.267     c-5.12,0-8.533,3.413-8.533,8.533S138.947,225.213,144.067,225.213z" fill="#555555"/>
-      <path d="M41.667,259.347H152.6c5.12,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533H41.667c-5.12,0-8.533,3.413-8.533,8.533     S36.547,259.347,41.667,259.347z" fill="#555555"/>
-      <path d="M212.333,242.28h-25.6c-5.12,0-8.533,3.413-8.533,8.533s3.413,8.533,8.533,8.533h25.6c5.12,0,8.533-3.413,8.533-8.533     S217.453,242.28,212.333,242.28z" fill="#555555"/>
-      <path d="M503.32,136.467c-5.973-7.68-13.653-11.947-23.04-12.8l-20.48-2.482V97.213V80.147c0-18.773-15.36-34.133-34.133-34.133     H33.133C14.36,46.013-1,61.373-1,80.147v17.067v68.267v187.733c0,15.413,10.357,28.518,24.453,32.718     c-0.43,17.262,12.631,32.248,30.161,33.842l394.24,44.373c0.853,0,2.56,0,3.413,0c17.067,0,32.427-12.8,34.133-29.013     l25.6-273.92C511.853,152.68,509.293,143.293,503.32,136.467z M16.067,105.747h426.667v22.187v29.013H16.067V105.747z      M33.133,63.08h392.533c9.387,0,17.067,7.68,17.067,17.067v8.533H16.067v-8.533C16.067,70.76,23.747,63.08,33.133,63.08z      M16.067,353.213v-179.2h426.667v179.2c0,9.387-7.68,17.067-17.067,17.067H33.987h-0.853     C23.747,370.28,16.067,362.6,16.067,353.213z M493.933,157.8l-25.6,273.92c-0.853,9.387-9.387,16.213-18.773,15.36     L56.173,402.707c-8.533-0.853-14.507-7.68-15.36-15.36h384.853c18.773,0,34.133-15.36,34.133-34.133V165.48v-28.16l19.627,1.707     c4.267,0,8.533,2.56,11.093,5.973C493.08,148.413,494.787,153.533,493.933,157.8z" fill="#555555"/>
-    </g>
-  </symbol>
-</svg>
-<header>
-  <div class="wrap">
-    <div class="left_col">
-      <a href="#" class="burger_menu">
-        <div class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconBurger"></use>
-          </svg>
-        </div>Меню
-      </a>
-      <div class="menu_popup_overlay">
-        <div class="menu_content">
-          <div class="icon_close">
-            <a href="#" class="icon">
-              <svg xmlns="http://www.w3.org/2000/svg">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconBack"></use>
-              </svg>
-            </a>
-          </div>
-          <a href="/" class="logo"><img src="img/logo_fb-mobile.png" alt=""></a>
-          <div class="menu_block">
-            <div class="heading">Каталог</div>
-            <ul class="group">
-              <li><a href="#">Верхняя одежда</a></li>
-              <li><a href="#" class="novelty">Новинки</a></li>
-              <li><a href="#" class="sale">Распродажа</a></li>
-              <li><a href="#">Футболки <span class="mark">SALE</span></a></li>
-              <li><a href="#">Платья</a></li>
-              <li><a href="#">Джинсы</a></li>
-              <li><a href="#">Брюки</a></li>
-            </ul>
-          </div>
-          <div class="menu_block">
-            <div class="heading">Полезная информация</div>
-            <ul class="group">
-              <li><a href="#" class="contacts">Контакты</a></li>
-              <li><a href="#" class="shops">Наши магазины</a></li>
-              <li><a href="#">Доставка по РБ</a></li>
-              <li><a href="#">Оплата <span class="mark">Рассрочка</span></a></li>
-            </ul>
-          </div>
-          <div class="menu_block">
-            <div class="heading">Профиль</div>
-            <ul class="group">
-              <li><a href="#" class="personal">Личный кабинет</a></li>
-              <li><a href="#">Информация о заказах</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <a href="#" class="search">
-        <div class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearchHeader"></use>
-          </svg>
-        </div>Поиск по каталогу
-      </a>
-    </div>
-    <div class="right_col">
-      <a href="#" class="favorites"><div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconFavorites"></use>
-        </svg>
-      </div>Избранное</a>
-      <a href="#" class="basket"><div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconBasket"></use>
-        </svg>
-      </div><span class="number">2</span>Корзина</a>
-    </div>
-    <div class="logo_block"><a href="/" class="logo"><img src="img/logo_horizontal.psb.png" alt=""></a></div>
-    
-  </div>
-</header>
+//= includes/svg.html
+//= includes/headerSearch.html
 
 <main>
   <div class="wrap">
@@ -207,9 +49,11 @@
       <div class="col product_catalog">
         <ul class="breadcrumbs">
           <li class="crumb"><a href="/">Fashion Boutique</a></li>
-          <li class="crumb last_crumb">Женская одежда</li>
+          <li class="crumb"><a href="#">Женская одежда</a></li>
+          <li class="crumb"><a href="#">Платья</a></li>
+          <li class="crumb last_crumb">Повседневные платья</li>
         </ul>
-        <div class="title">Женская одежда</div>
+        <div class="title">Повседневные платья</div>
         <div class="filters">
           
         </div>
@@ -575,19 +419,7 @@
   </div>
 </main>
 
-<footer>
-  <div class="wrap">
-    <a href="/" class="footer_logo"><img src="img/logo_fb.png" alt=""></a>
-    <a href="#" class="about">О нас</a>
-    <a href="#" class="shops">Наши магазины</a>
-    <a href="#" class="delivery">Условия доставки</a>
-    <div class="socials_block">
-      <a href="#" class="item item_insta"></a>
-      <a href="#" class="item item_vk"></a>
-      <a href="#" class="item item_fb"></a>
-    </div>
-  </div>
-</footer>
-<script src="js/common.js"></script>
+//= includes/footer.html
+//= includes/scripts.html
 </body>
 </html>

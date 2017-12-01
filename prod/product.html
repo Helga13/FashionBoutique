@@ -140,6 +140,13 @@
           </div>
         </div>
       </div>
+      <a href="#" class="search">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearchHeader"></use>
+          </svg>
+        </div>Поиск по каталогу
+      </a>
     </div>
     <div class="right_col">
       <a href="#" class="favorites"><div class="icon">
@@ -160,67 +167,82 @@
 
 <main>
   <div class="wrap">
-    <div class="top_block">
-      <nav>
-        <ul class="index_nav">
-          <li><a href="#">Кофты</a></li>
-          <li><a href="#">Джинсы</a></li>
-          <li><a href="#">Пальто</a></li>
-          <li><a href="#">Куртки</a></li>
-          <li><a href="#">Свитера</a></li>
-          <li><a href="#">Свитшоты</a></li>
-          <li><a href="#" class="novelty">Новинки</a></li>
-          <li><a href="#" class="sale">Распродажа</a></li>
-        </ul>
-      </nav>
-      <div class="search_block">
-        <input type="search" name="search" placeholder="Что вы ищите?" value=""> 
-		<button type="button" class="search">
-		  <svg xmlns="http://www.w3.org/2000/svg">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearch"></use>
-          </svg>
-		</button>
+    <ul class="breadcrumbs">
+      <li class="crumb"><a href="/">Fashion Boutique</a></li>
+      <li class="crumb"><a href="#">Женская одежда</a></li>
+      <li class="crumb"><a href="#">Платья</a></li>
+      <li class="crumb last_crumb">Повседневные платья</li>
+    </ul>
+    <div class="row">
+      <div class="col photo_frame">
+        <div class="main_img"><img class="my-foto-container" src="img/product/img1.jpg"  data-large="img/product/img1.jpg" ></div>
+        <div class="thumbs">
+          <img class="my-foto active" src="img/product/img1.jpg"  data-large="img/product/img1.jpg" title="Фото1">
+          <img class="my-foto" src="img/product/img2.jpg"  data-large="img/product/img2.jpg" title="Фото2">
+        </div>
+      </div>
+      <div class="col info_frame">
+        <form action="/">
+          <div class="item_info">
+            <div class="icon_favoirites"></div>
+            <div class="price discount">80 р.<span class="old_price">130 р.</span></div>
+            <div class="name">Трикотажное приталенное платье с длинным рукавом</div>
+          </div>
+          <div class="item_info options">
+            <div class="icon_options edit js-options"></div>
+            <div class="size">Размер: <span class="value">46</span></div>
+            <div class="color">Цвет: <span class="value">Темно-синий</span></div>
+            <div class="choice_block">
+              <div class="choice_size">
+                <div class="caption">Размер</div>
+                <div class="field">
+                  <input name="size" type="radio" id="r1">
+                  <label for="r1">42</label>
+                </div>
+                <div class="field">
+                  <input name="size" type="radio" id="r2">
+                  <label for="r2">44</label>
+                </div>
+                <div class="field">
+                  <input name="size" type="radio" id="r3" checked>
+                  <label for="r3">46</label>
+                </div>
+                <div class="field">
+                  <input name="size" type="radio" id="r4">
+                  <label for="r4">48</label>
+                </div>
+              </div>
+              <a href="#" class="size_table">Таблица размеров</a>
+              <div class="choice_color">
+                <div class="caption">Цвет</div>
+                <div class="field">
+                  <input name="color" type="radio" id="r11">
+                  <label for="r11"><img src="img/colors/color1.png" alt=""></label>
+                </div>
+                <div class="field">
+                  <input name="color" type="radio" id="r21" checked>
+                  <label for="r21"><img src="img/colors/color2.png" alt=""></label>
+                </div>
+                <div class="field">
+                  <input name="color" type="radio" id="r31">
+                  <label for="r31"><img src="img/colors/color3.png" alt=""></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item_info quantity">
+            <div class="item_name">Количество</div>
+            <div class="number js-number" data-max-number="100">
+              <button class="number__minus js-minus-number" type="button">-</button>
+              <input type="text" class="input" value="1">
+              <button class="number__plus js-plus-number" type="button">+</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
-    <div class="main_slider">
-      <div class="slide"><img src="img/main_slider/slide1.jpg" alt=""></div>
-      <div class="slide"><img src="img/main_slider/slide1.jpg" alt=""></div>
-      <div class="slide"><img src="img/main_slider/slide1.jpg" alt=""></div>
-    </div>
-    <section class="clothes_block">
-      <div class="title">Модная одежда со всего мира</div>
-      <div class="installment"><img src="img/installment.jpg" alt=""></div>
-      <div class="ladieswear">
-        <div class="subtitle">Женская одежда</div>
-        <a href="#" class="all_categories">Все категории</a>
-        <div class="row categories">
-          <div class="col">
-            <a href="#" class="clothes_item">
-              <img src="img/clothes/cat1.jpg" alt="">
-              <div class="overlay"><span class="category_name">Джинсы</span></div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="#" class="clothes_item">
-              <img src="img/clothes/cat1.jpg" alt="">
-              <div class="overlay"><span class="category_name">Джемпера</span></div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="#" class="clothes_item">
-              <img src="img/clothes/cat1.jpg" alt="">
-              <div class="overlay"><span class="category_name">Платья</span></div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="#" class="clothes_item">
-              <img src="img/clothes/cat1.jpg" alt="">
-              <div class="overlay"><span class="category_name">Желетки</span></div>
-            </a>
-          </div>
-        </div>
-        <div class="goods_block">
-          <div class="subtitle">Новинки</div>
+    <div class="goods_block recommendations">
+          <div class="subtitle">Вам понравится</div>
           <div class="row goods_slider">
             <div class="col">
               <div class="item_prod">
@@ -408,197 +430,7 @@
             </div>
           </div>
         </div>
-        <div class="goods_block">
-          <div class="subtitle">Хиты продаж</div>
-          <div class="row goods_slider">
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites on"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price discount">80 р.<span class="old_price">130 р.</span></div>
-                  <a href="#" class="name">Трикотажное платье с длинным рукавом</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="item_prod">
-                <a href="#" class="img_block">
-                  <div class="icon_favoirites"></div>
-                  <img src="img/goods/img1.jpg" alt="">
-                  <div class="hover_overlay"><div class="text"><img src="img/icons/icon_view.png" alt=""><div>Подробнее</div></div></div>
-                </a>
-                <div class="text_block">
-                  <div class="price">80 р.</div>
-                  <a href="#" class="name">Морское платье</a>
-                  <div class="sizes">
-                    <span class="size">XS</span>
-                    <span class="size">S</span>
-                    <span class="size">M</span>
-                  </div>
-                  <div class="colors">
-                    <span class="color"><img src="img/colors/color4.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color2.png" alt=""></span>
-                    <span class="color"><img src="img/colors/color3.png" alt=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </div>
 </main>
 
