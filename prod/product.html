@@ -140,13 +140,23 @@
           </div>
         </div>
       </div>
-      <a href="#" class="search">
-        <div class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearchHeader"></use>
-          </svg>
-        </div>Поиск по каталогу
-      </a>
+      <div class="search_header">
+        <a href="#" class="search js-search_header">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearchHeader"></use>
+            </svg>
+          </div>Поиск по каталогу
+        </a>
+        <div class="search_block">
+          <input type="search" name="q" placeholder="Что вы ищите?" value="" autocomplete="off"> 
+          <button type="button" class="search">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearch"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
     <div class="right_col">
       <a href="#" class="favorites"><div class="icon">
@@ -160,7 +170,7 @@
         </svg>
       </div><span class="number">2</span>Корзина</a>
     </div>
-    <div class="logo_block"><a href="/" class="logo"><img src="img/logo_horizontal.psb.png" alt=""></a></div>
+    <div class="logo_block"><a href="/" class="logo"><img src="img/logo_horizontal.psb.png" alt="Fashion Boutique"><img class="logo_mobile" src="img/logo_fb-mobile.png" alt="Fashion Boutique"></a></div>
     
   </div>
 </header>
@@ -184,7 +194,7 @@
       <div class="col info_frame">
         <form action="/">
           <div class="item_info">
-            <div class="icon_favoirites"></div>
+            <div class="icon_favoirites on"></div>
             <div class="price discount">80 р.<span class="old_price">130 р.</span></div>
             <div class="name">Трикотажное приталенное платье с длинным рукавом</div>
           </div>
@@ -192,7 +202,7 @@
             <div class="icon_options edit js-options"></div>
             <div class="size">Размер: <span class="value">46</span></div>
             <div class="color">Цвет: <span class="value">Темно-синий</span></div>
-            <div class="choice_block">
+            <div class="hidden_block">
               <div class="choice_size">
                 <div class="caption">Размер</div>
                 <div class="field">
@@ -237,6 +247,37 @@
               <input type="text" class="input" value="1">
               <button class="number__plus js-plus-number" type="button">+</button>
             </div>
+          </div>
+          <div class="item_info delivery">
+            <div class="icon_eye edit js-options"></div>
+            <div class="item_name">Доставка и оплата</div>
+            <div class="hidden_block">
+              <a href="#"><img src="img/icons/icon_delivery.png" alt="" class="icon">Доставка по всей РБ</a>
+              <a href="#"><img src="img/icons/icon_card.png" alt="" class="icon">Безналичный расчет</a>
+              <a href="#"><img src="img/icons/icon_percent.png" alt="" class="icon">Рассрочка по картам: “Халва” и “Карта покупок”</a>
+            </div>
+          </div>
+          <div class="item_info to_card">
+            <button class="btn add_to_card"><span><img src="img/icons/icon_add_to_cart.png" alt="">Добавить в корзину</span></button>
+          </div>
+          <div class="item_info attributes">
+            <div class="icon_eye edit js-options"></div>
+            <div class="item_name">Описание</div>
+            <ul class="attributes_block">
+              <li class="item_attr">Состав: Полиэстер - 60%, Хлопок - 40%</li>
+              <li class="item_attr hidden_block">Размер товара на модели: 42</li>
+              <li class="item_attr hidden_block">Параметры модели: 85-62-89</li>
+              <li class="item_attr hidden_block">Рост модели на фото: 179</li>
+              <li class="item_attr hidden_block">Высота: 26 см</li>
+              <li class="item_attr hidden_block">Длина по внутреннему шву: 76 см</li>
+              <li class="item_attr hidden_block">Длина по боковому шву: 99 см</li>
+              <li class="item_attr hidden_block">Сезон: мульти</li>
+              <li class="item_attr hidden_block">Цвет: зеленый</li>
+              <li class="item_attr hidden_block">Узор: однотонный</li>
+              <li class="item_attr hidden_block">Застежка: без застежки</li>
+              <li class="item_attr hidden_block">Карманы: 2</li>
+              <li class="item_attr">Артикул: MO044EWWRK16</li>
+            </ul>
           </div>
         </form>
       </div>

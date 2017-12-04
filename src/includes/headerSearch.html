@@ -48,13 +48,23 @@
           </div>
         </div>
       </div>
-      <a href="#" class="search">
-        <div class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearchHeader"></use>
-          </svg>
-        </div>Поиск по каталогу
-      </a>
+      <div class="search_header">
+        <a href="#" class="search js-search_header">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearchHeader"></use>
+            </svg>
+          </div>Поиск по каталогу
+        </a>
+        <div class="search_block">
+          <input type="search" name="q" placeholder="Что вы ищите?" value="" autocomplete="off"> 
+          <button type="button" class="search">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-iconSearch"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
     <div class="right_col">
       <a href="#" class="favorites"><div class="icon">
@@ -68,7 +78,7 @@
         </svg>
       </div><span class="number">2</span>Корзина</a>
     </div>
-    <div class="logo_block"><a href="/" class="logo"><img src="img/logo_horizontal.psb.png" alt=""></a></div>
+    <div class="logo_block"><a href="/" class="logo"><img src="img/logo_horizontal.psb.png" alt="Fashion Boutique"><img class="logo_mobile" src="img/logo_fb-mobile.png" alt="Fashion Boutique"></a></div>
     
   </div>
 </header>

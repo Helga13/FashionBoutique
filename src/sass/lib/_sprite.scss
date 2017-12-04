@@ -10,83 +10,149 @@
   At the bottom of this section, we provide information about the spritesheet itself
   $spritesheet: width height image $spritesheet-sprites
   */
+$icon_add_to_cart-name: 'icon_add_to_cart'
+$icon_add_to_cart-x: 30px
+$icon_add_to_cart-y: 45px
+$icon_add_to_cart-offset-x: -30px
+$icon_add_to_cart-offset-y: -45px
+$icon_add_to_cart-width: 28px
+$icon_add_to_cart-height: 27px
+$icon_add_to_cart-total-width: 146px
+$icon_add_to_cart-total-height: 130px
+$icon_add_to_cart-image: 'sprite.png'
+$icon_add_to_cart: 30px 45px -30px -45px 28px 27px 146px 130px 'sprite.png' 'icon_add_to_cart'
 $icon_car-name: 'icon_car'
-$icon_car-x: 48px
-$icon_car-y: 72px
-$icon_car-offset-x: -48px
-$icon_car-offset-y: -72px
+$icon_car-x: 34px
+$icon_car-y: 113px
+$icon_car-offset-x: -34px
+$icon_car-offset-y: -113px
 $icon_car-width: 19px
 $icon_car-height: 12px
-$icon_car-total-width: 132px
-$icon_car-total-height: 122px
+$icon_car-total-width: 146px
+$icon_car-total-height: 130px
 $icon_car-image: 'sprite.png'
-$icon_car: 48px 72px -48px -72px 19px 12px 132px 122px 'sprite.png' 'icon_car'
+$icon_car: 34px 113px -34px -113px 19px 12px 146px 130px 'sprite.png' 'icon_car'
+$icon_card-name: 'icon_card'
+$icon_card-x: 83px
+$icon_card-y: 93px
+$icon_card-offset-x: -83px
+$icon_card-offset-y: -93px
+$icon_card-width: 21px
+$icon_card-height: 17px
+$icon_card-total-width: 146px
+$icon_card-total-height: 130px
+$icon_card-image: 'sprite.png'
+$icon_card: 83px 93px -83px -93px 21px 17px 146px 130px 'sprite.png' 'icon_card'
 $icon_check-name: 'icon_check'
-$icon_check-x: 67px
-$icon_check-y: 72px
-$icon_check-offset-x: -67px
-$icon_check-offset-y: -72px
+$icon_check-x: 53px
+$icon_check-y: 113px
+$icon_check-offset-x: -53px
+$icon_check-offset-y: -113px
 $icon_check-width: 17px
 $icon_check-height: 12px
-$icon_check-total-width: 132px
-$icon_check-total-height: 122px
+$icon_check-total-width: 146px
+$icon_check-total-height: 130px
 $icon_check-image: 'sprite.png'
-$icon_check: 67px 72px -67px -72px 17px 12px 132px 122px 'sprite.png' 'icon_check'
+$icon_check: 53px 113px -53px -113px 17px 12px 146px 130px 'sprite.png' 'icon_check'
+$icon_clock-name: 'icon_clock'
+$icon_clock-x: 132px
+$icon_clock-y: 14px
+$icon_clock-offset-x: -132px
+$icon_clock-offset-y: -14px
+$icon_clock-width: 14px
+$icon_clock-height: 14px
+$icon_clock-total-width: 146px
+$icon_clock-total-height: 130px
+$icon_clock-image: 'sprite.png'
+$icon_clock: 132px 14px -132px -14px 14px 14px 146px 130px 'sprite.png' 'icon_clock'
 $icon_color-name: 'icon_color'
-$icon_color-x: 62px
-$icon_color-y: 88px
-$icon_color-offset-x: -62px
-$icon_color-offset-y: -88px
+$icon_color-x: 0px
+$icon_color-y: 113px
+$icon_color-offset-x: 0px
+$icon_color-offset-y: -113px
 $icon_color-width: 17px
 $icon_color-height: 17px
-$icon_color-total-width: 132px
-$icon_color-total-height: 122px
+$icon_color-total-width: 146px
+$icon_color-total-height: 130px
 $icon_color-image: 'sprite.png'
-$icon_color: 62px 88px -62px -88px 17px 17px 132px 122px 'sprite.png' 'icon_color'
+$icon_color: 0px 113px 0px -113px 17px 17px 146px 130px 'sprite.png' 'icon_color'
+$icon_delivery-name: 'icon_delivery'
+$icon_delivery-x: 69px
+$icon_delivery-y: 72px
+$icon_delivery-offset-x: -69px
+$icon_delivery-offset-y: -72px
+$icon_delivery-width: 21px
+$icon_delivery-height: 15px
+$icon_delivery-total-width: 146px
+$icon_delivery-total-height: 130px
+$icon_delivery-image: 'sprite.png'
+$icon_delivery: 69px 72px -69px -72px 21px 15px 146px 130px 'sprite.png' 'icon_delivery'
 $icon_edit-name: 'icon_edit'
 $icon_edit-x: 0px
-$icon_edit-y: 88px
+$icon_edit-y: 93px
 $icon_edit-offset-x: 0px
-$icon_edit-offset-y: -88px
+$icon_edit-offset-y: -93px
 $icon_edit-width: 20px
 $icon_edit-height: 20px
-$icon_edit-total-width: 132px
-$icon_edit-total-height: 122px
+$icon_edit-total-width: 146px
+$icon_edit-total-height: 130px
 $icon_edit-image: 'sprite.png'
-$icon_edit: 0px 88px 0px -88px 20px 20px 132px 122px 'sprite.png' 'icon_edit'
+$icon_edit: 0px 93px 0px -93px 20px 20px 146px 130px 'sprite.png' 'icon_edit'
+$icon_eye-hidden-name: 'icon_eye-hidden'
+$icon_eye-hidden-x: 20px
+$icon_eye-hidden-y: 93px
+$icon_eye-hidden-offset-x: -20px
+$icon_eye-hidden-offset-y: -93px
+$icon_eye-hidden-width: 21px
+$icon_eye-hidden-height: 19px
+$icon_eye-hidden-total-width: 146px
+$icon_eye-hidden-total-height: 130px
+$icon_eye-hidden-image: 'sprite.png'
+$icon_eye-hidden: 20px 93px -20px -93px 21px 19px 146px 130px 'sprite.png' 'icon_eye-hidden'
+$icon_eye-name: 'icon_eye'
+$icon_eye-x: 45px
+$icon_eye-y: 31px
+$icon_eye-offset-x: -45px
+$icon_eye-offset-y: -31px
+$icon_eye-width: 21px
+$icon_eye-height: 13px
+$icon_eye-total-width: 146px
+$icon_eye-total-height: 130px
+$icon_eye-image: 'sprite.png'
+$icon_eye: 45px 31px -45px -31px 21px 13px 146px 130px 'sprite.png' 'icon_eye'
 $icon_fb-hover-name: 'icon_fb-hover'
 $icon_fb-hover-x: 120px
-$icon_fb-hover-y: 26px
+$icon_fb-hover-y: 0px
 $icon_fb-hover-offset-x: -120px
-$icon_fb-hover-offset-y: -26px
+$icon_fb-hover-offset-y: 0px
 $icon_fb-hover-width: 12px
 $icon_fb-hover-height: 26px
-$icon_fb-hover-total-width: 132px
-$icon_fb-hover-total-height: 122px
+$icon_fb-hover-total-width: 146px
+$icon_fb-hover-total-height: 130px
 $icon_fb-hover-image: 'sprite.png'
-$icon_fb-hover: 120px 26px -120px -26px 12px 26px 132px 122px 'sprite.png' 'icon_fb-hover'
+$icon_fb-hover: 120px 0px -120px 0px 12px 26px 146px 130px 'sprite.png' 'icon_fb-hover'
 $icon_fb-name: 'icon_fb'
 $icon_fb-x: 120px
-$icon_fb-y: 0px
+$icon_fb-y: 26px
 $icon_fb-offset-x: -120px
-$icon_fb-offset-y: 0px
+$icon_fb-offset-y: -26px
 $icon_fb-width: 12px
 $icon_fb-height: 26px
-$icon_fb-total-width: 132px
-$icon_fb-total-height: 122px
+$icon_fb-total-width: 146px
+$icon_fb-total-height: 130px
 $icon_fb-image: 'sprite.png'
-$icon_fb: 120px 0px -120px 0px 12px 26px 132px 122px 'sprite.png' 'icon_fb'
+$icon_fb: 120px 26px -120px -26px 12px 26px 146px 130px 'sprite.png' 'icon_fb'
 $icon_hurt-on-name: 'icon_hurt-on'
-$icon_hurt-on-x: 30px
+$icon_hurt-on-x: 58px
 $icon_hurt-on-y: 45px
-$icon_hurt-on-offset-x: -30px
+$icon_hurt-on-offset-x: -58px
 $icon_hurt-on-offset-y: -45px
 $icon_hurt-on-width: 29px
 $icon_hurt-on-height: 26px
-$icon_hurt-on-total-width: 132px
-$icon_hurt-on-total-height: 122px
+$icon_hurt-on-total-width: 146px
+$icon_hurt-on-total-height: 130px
 $icon_hurt-on-image: 'sprite.png'
-$icon_hurt-on: 30px 45px -30px -45px 29px 26px 132px 122px 'sprite.png' 'icon_hurt-on'
+$icon_hurt-on: 58px 45px -58px -45px 29px 26px 146px 130px 'sprite.png' 'icon_hurt-on'
 $icon_hurt-name: 'icon_hurt'
 $icon_hurt-x: 0px
 $icon_hurt-y: 45px
@@ -94,43 +160,43 @@ $icon_hurt-offset-x: 0px
 $icon_hurt-offset-y: -45px
 $icon_hurt-width: 30px
 $icon_hurt-height: 27px
-$icon_hurt-total-width: 132px
-$icon_hurt-total-height: 122px
+$icon_hurt-total-width: 146px
+$icon_hurt-total-height: 130px
 $icon_hurt-image: 'sprite.png'
-$icon_hurt: 0px 45px 0px -45px 30px 27px 132px 122px 'sprite.png' 'icon_hurt'
+$icon_hurt: 0px 45px 0px -45px 30px 27px 146px 130px 'sprite.png' 'icon_hurt'
 $icon_hurt_prod-on-name: 'icon_hurt_prod-on'
 $icon_hurt_prod-on-x: 41px
-$icon_hurt_prod-on-y: 88px
+$icon_hurt_prod-on-y: 93px
 $icon_hurt_prod-on-offset-x: -41px
-$icon_hurt_prod-on-offset-y: -88px
+$icon_hurt_prod-on-offset-y: -93px
 $icon_hurt_prod-on-width: 21px
 $icon_hurt_prod-on-height: 18px
-$icon_hurt_prod-on-total-width: 132px
-$icon_hurt_prod-on-total-height: 122px
+$icon_hurt_prod-on-total-width: 146px
+$icon_hurt_prod-on-total-height: 130px
 $icon_hurt_prod-on-image: 'sprite.png'
-$icon_hurt_prod-on: 41px 88px -41px -88px 21px 18px 132px 122px 'sprite.png' 'icon_hurt_prod-on'
+$icon_hurt_prod-on: 41px 93px -41px -93px 21px 18px 146px 130px 'sprite.png' 'icon_hurt_prod-on'
 $icon_hurt_prod-name: 'icon_hurt_prod'
-$icon_hurt_prod-x: 20px
-$icon_hurt_prod-y: 88px
-$icon_hurt_prod-offset-x: -20px
-$icon_hurt_prod-offset-y: -88px
+$icon_hurt_prod-x: 62px
+$icon_hurt_prod-y: 93px
+$icon_hurt_prod-offset-x: -62px
+$icon_hurt_prod-offset-y: -93px
 $icon_hurt_prod-width: 21px
 $icon_hurt_prod-height: 18px
-$icon_hurt_prod-total-width: 132px
-$icon_hurt_prod-total-height: 122px
+$icon_hurt_prod-total-width: 146px
+$icon_hurt_prod-total-height: 130px
 $icon_hurt_prod-image: 'sprite.png'
-$icon_hurt_prod: 20px 88px -20px -88px 21px 18px 132px 122px 'sprite.png' 'icon_hurt_prod'
+$icon_hurt_prod: 62px 93px -62px -93px 21px 18px 146px 130px 'sprite.png' 'icon_hurt_prod'
 $icon_insta-hover-name: 'icon_insta-hover'
-$icon_insta-hover-x: 59px
-$icon_insta-hover-y: 45px
-$icon_insta-hover-offset-x: -59px
-$icon_insta-hover-offset-y: -45px
+$icon_insta-hover-x: 94px
+$icon_insta-hover-y: 26px
+$icon_insta-hover-offset-x: -94px
+$icon_insta-hover-offset-y: -26px
 $icon_insta-hover-width: 26px
 $icon_insta-hover-height: 26px
-$icon_insta-hover-total-width: 132px
-$icon_insta-hover-total-height: 122px
+$icon_insta-hover-total-width: 146px
+$icon_insta-hover-total-height: 130px
 $icon_insta-hover-image: 'sprite.png'
-$icon_insta-hover: 59px 45px -59px -45px 26px 26px 132px 122px 'sprite.png' 'icon_insta-hover'
+$icon_insta-hover: 94px 26px -94px -26px 26px 26px 146px 130px 'sprite.png' 'icon_insta-hover'
 $icon_insta-name: 'icon_insta'
 $icon_insta-x: 94px
 $icon_insta-y: 0px
@@ -138,120 +204,153 @@ $icon_insta-offset-x: -94px
 $icon_insta-offset-y: 0px
 $icon_insta-width: 26px
 $icon_insta-height: 26px
-$icon_insta-total-width: 132px
-$icon_insta-total-height: 122px
+$icon_insta-total-width: 146px
+$icon_insta-total-height: 130px
 $icon_insta-image: 'sprite.png'
-$icon_insta: 94px 0px -94px 0px 26px 26px 132px 122px 'sprite.png' 'icon_insta'
+$icon_insta: 94px 0px -94px 0px 26px 26px 146px 130px 'sprite.png' 'icon_insta'
 $icon_left-name: 'icon_left'
-$icon_left-x: 66px
-$icon_left-y: 31px
-$icon_left-offset-x: -66px
-$icon_left-offset-y: -31px
+$icon_left-x: 140px
+$icon_left-y: 109px
+$icon_left-offset-x: -140px
+$icon_left-offset-y: -109px
 $icon_left-width: 6px
 $icon_left-height: 10px
-$icon_left-total-width: 132px
-$icon_left-total-height: 122px
+$icon_left-total-width: 146px
+$icon_left-total-height: 130px
 $icon_left-image: 'sprite.png'
-$icon_left: 66px 31px -66px -31px 6px 10px 132px 122px 'sprite.png' 'icon_left'
+$icon_left: 140px 109px -140px -109px 6px 10px 146px 130px 'sprite.png' 'icon_left'
+$icon_location-color-name: 'icon_location-color'
+$icon_location-color-x: 132px
+$icon_location-color-y: 95px
+$icon_location-color-offset-x: -132px
+$icon_location-color-offset-y: -95px
+$icon_location-color-width: 10px
+$icon_location-color-height: 14px
+$icon_location-color-total-width: 146px
+$icon_location-color-total-height: 130px
+$icon_location-color-image: 'sprite.png'
+$icon_location-color: 132px 95px -132px -95px 10px 14px 146px 130px 'sprite.png' 'icon_location-color'
 $icon_location-name: 'icon_location'
-$icon_location-x: 120px
-$icon_location-y: 52px
-$icon_location-offset-x: -120px
-$icon_location-offset-y: -52px
+$icon_location-x: 132px
+$icon_location-y: 28px
+$icon_location-offset-x: -132px
+$icon_location-offset-y: -28px
 $icon_location-width: 12px
 $icon_location-height: 16px
-$icon_location-total-width: 132px
-$icon_location-total-height: 122px
+$icon_location-total-width: 146px
+$icon_location-total-height: 130px
 $icon_location-image: 'sprite.png'
-$icon_location: 120px 52px -120px -52px 12px 16px 132px 122px 'sprite.png' 'icon_location'
+$icon_location: 132px 28px -132px -28px 12px 16px 146px 130px 'sprite.png' 'icon_location'
 $icon_novelty-small-name: 'icon_novelty-small'
-$icon_novelty-small-x: 96px
-$icon_novelty-small-y: 88px
-$icon_novelty-small-offset-x: -96px
-$icon_novelty-small-offset-y: -88px
+$icon_novelty-small-x: 104px
+$icon_novelty-small-y: 93px
+$icon_novelty-small-offset-x: -104px
+$icon_novelty-small-offset-y: -93px
 $icon_novelty-small-width: 16px
 $icon_novelty-small-height: 16px
-$icon_novelty-small-total-width: 132px
-$icon_novelty-small-total-height: 122px
+$icon_novelty-small-total-width: 146px
+$icon_novelty-small-total-height: 130px
 $icon_novelty-small-image: 'sprite.png'
-$icon_novelty-small: 96px 88px -96px -88px 16px 16px 132px 122px 'sprite.png' 'icon_novelty-small'
+$icon_novelty-small: 104px 93px -104px -93px 16px 16px 146px 130px 'sprite.png' 'icon_novelty-small'
 $icon_novelty-name: 'icon_novelty'
-$icon_novelty-x: 94px
-$icon_novelty-y: 26px
-$icon_novelty-offset-x: -94px
-$icon_novelty-offset-y: -26px
+$icon_novelty-x: 0px
+$icon_novelty-y: 72px
+$icon_novelty-offset-x: 0px
+$icon_novelty-offset-y: -72px
 $icon_novelty-width: 21px
 $icon_novelty-height: 21px
-$icon_novelty-total-width: 132px
-$icon_novelty-total-height: 122px
+$icon_novelty-total-width: 146px
+$icon_novelty-total-height: 130px
 $icon_novelty-image: 'sprite.png'
-$icon_novelty: 94px 26px -94px -26px 21px 21px 132px 122px 'sprite.png' 'icon_novelty'
+$icon_novelty: 0px 72px 0px -72px 21px 21px 146px 130px 'sprite.png' 'icon_novelty'
+$icon_percent-name: 'icon_percent'
+$icon_percent-x: 90px
+$icon_percent-y: 72px
+$icon_percent-offset-x: -90px
+$icon_percent-offset-y: -72px
+$icon_percent-width: 19px
+$icon_percent-height: 15px
+$icon_percent-total-width: 146px
+$icon_percent-total-height: 130px
+$icon_percent-image: 'sprite.png'
+$icon_percent: 90px 72px -90px -72px 19px 15px 146px 130px 'sprite.png' 'icon_percent'
 $icon_personal-small-name: 'icon_personal-small'
-$icon_personal-small-x: 0px
-$icon_personal-small-y: 108px
-$icon_personal-small-offset-x: 0px
-$icon_personal-small-offset-y: -108px
+$icon_personal-small-x: 132px
+$icon_personal-small-y: 0px
+$icon_personal-small-offset-x: -132px
+$icon_personal-small-offset-y: 0px
 $icon_personal-small-width: 14px
 $icon_personal-small-height: 14px
-$icon_personal-small-total-width: 132px
-$icon_personal-small-total-height: 122px
+$icon_personal-small-total-width: 146px
+$icon_personal-small-total-height: 130px
 $icon_personal-small-image: 'sprite.png'
-$icon_personal-small: 0px 108px 0px -108px 14px 14px 132px 122px 'sprite.png' 'icon_personal-small'
+$icon_personal-small: 132px 0px -132px 0px 14px 14px 146px 130px 'sprite.png' 'icon_personal-small'
+$icon_phone-small-dark-name: 'icon_phone-small-dark'
+$icon_phone-small-dark-x: 132px
+$icon_phone-small-dark-y: 44px
+$icon_phone-small-dark-offset-x: -132px
+$icon_phone-small-dark-offset-y: -44px
+$icon_phone-small-dark-width: 13px
+$icon_phone-small-dark-height: 13px
+$icon_phone-small-dark-total-width: 146px
+$icon_phone-small-dark-total-height: 130px
+$icon_phone-small-dark-image: 'sprite.png'
+$icon_phone-small-dark: 132px 44px -132px -44px 13px 13px 146px 130px 'sprite.png' 'icon_phone-small-dark'
 $icon_phone-small-name: 'icon_phone-small'
-$icon_phone-small-x: 120px
-$icon_phone-small-y: 68px
-$icon_phone-small-offset-x: -120px
-$icon_phone-small-offset-y: -68px
+$icon_phone-small-x: 132px
+$icon_phone-small-y: 69px
+$icon_phone-small-offset-x: -132px
+$icon_phone-small-offset-y: -69px
 $icon_phone-small-width: 12px
 $icon_phone-small-height: 12px
-$icon_phone-small-total-width: 132px
-$icon_phone-small-total-height: 122px
+$icon_phone-small-total-width: 146px
+$icon_phone-small-total-height: 130px
 $icon_phone-small-image: 'sprite.png'
-$icon_phone-small: 120px 68px -120px -68px 12px 12px 132px 122px 'sprite.png' 'icon_phone-small'
+$icon_phone-small: 132px 69px -132px -69px 12px 12px 146px 130px 'sprite.png' 'icon_phone-small'
 $icon_right-name: 'icon_right'
-$icon_right-x: 120px
-$icon_right-y: 94px
-$icon_right-offset-x: -120px
-$icon_right-offset-y: -94px
+$icon_right-x: 132px
+$icon_right-y: 109px
+$icon_right-offset-x: -132px
+$icon_right-offset-y: -109px
 $icon_right-width: 8px
 $icon_right-height: 13px
-$icon_right-total-width: 132px
-$icon_right-total-height: 122px
+$icon_right-total-width: 146px
+$icon_right-total-height: 130px
 $icon_right-image: 'sprite.png'
-$icon_right: 120px 94px -120px -94px 8px 13px 132px 122px 'sprite.png' 'icon_right'
+$icon_right: 132px 109px -132px -109px 8px 13px 146px 130px 'sprite.png' 'icon_right'
 $icon_ruler-name: 'icon_ruler'
-$icon_ruler-x: 45px
+$icon_ruler-x: 66px
 $icon_ruler-y: 31px
-$icon_ruler-offset-x: -45px
+$icon_ruler-offset-x: -66px
 $icon_ruler-offset-y: -31px
 $icon_ruler-width: 21px
 $icon_ruler-height: 11px
-$icon_ruler-total-width: 132px
-$icon_ruler-total-height: 122px
+$icon_ruler-total-width: 146px
+$icon_ruler-total-height: 130px
 $icon_ruler-image: 'sprite.png'
-$icon_ruler: 45px 31px -45px -31px 21px 11px 132px 122px 'sprite.png' 'icon_ruler'
+$icon_ruler: 66px 31px -66px -31px 21px 11px 146px 130px 'sprite.png' 'icon_ruler'
 $icon_sale-small-name: 'icon_sale-small'
-$icon_sale-small-x: 84px
-$icon_sale-small-y: 72px
-$icon_sale-small-offset-x: -84px
-$icon_sale-small-offset-y: -72px
+$icon_sale-small-x: 132px
+$icon_sale-small-y: 57px
+$icon_sale-small-offset-x: -132px
+$icon_sale-small-offset-y: -57px
 $icon_sale-small-width: 14px
 $icon_sale-small-height: 12px
-$icon_sale-small-total-width: 132px
-$icon_sale-small-total-height: 122px
+$icon_sale-small-total-width: 146px
+$icon_sale-small-total-height: 130px
 $icon_sale-small-image: 'sprite.png'
-$icon_sale-small: 84px 72px -84px -72px 14px 12px 132px 122px 'sprite.png' 'icon_sale-small'
+$icon_sale-small: 132px 57px -132px -57px 14px 12px 146px 130px 'sprite.png' 'icon_sale-small'
 $icon_sale-name: 'icon_sale'
-$icon_sale-x: 79px
-$icon_sale-y: 88px
-$icon_sale-offset-x: -79px
-$icon_sale-offset-y: -88px
+$icon_sale-x: 17px
+$icon_sale-y: 113px
+$icon_sale-offset-x: -17px
+$icon_sale-offset-y: -113px
 $icon_sale-width: 17px
 $icon_sale-height: 16px
-$icon_sale-total-width: 132px
-$icon_sale-total-height: 122px
+$icon_sale-total-width: 146px
+$icon_sale-total-height: 130px
 $icon_sale-image: 'sprite.png'
-$icon_sale: 79px 88px -79px -88px 17px 16px 132px 122px 'sprite.png' 'icon_sale'
+$icon_sale: 17px 113px -17px -113px 17px 16px 146px 130px 'sprite.png' 'icon_sale'
 $icon_search-name: 'icon_search'
 $icon_search-x: 0px
 $icon_search-y: 0px
@@ -259,32 +358,32 @@ $icon_search-offset-x: 0px
 $icon_search-offset-y: 0px
 $icon_search-width: 45px
 $icon_search-height: 45px
-$icon_search-total-width: 132px
-$icon_search-total-height: 122px
+$icon_search-total-width: 146px
+$icon_search-total-height: 130px
 $icon_search-image: 'sprite.png'
-$icon_search: 0px 0px 0px 0px 45px 45px 132px 122px 'sprite.png' 'icon_search'
+$icon_search: 0px 0px 0px 0px 45px 45px 146px 130px 'sprite.png' 'icon_search'
 $icon_shops-small-name: 'icon_shops-small'
-$icon_shops-small-x: 120px
-$icon_shops-small-y: 80px
-$icon_shops-small-offset-x: -120px
-$icon_shops-small-offset-y: -80px
+$icon_shops-small-x: 132px
+$icon_shops-small-y: 81px
+$icon_shops-small-offset-x: -132px
+$icon_shops-small-offset-y: -81px
 $icon_shops-small-width: 10px
 $icon_shops-small-height: 14px
-$icon_shops-small-total-width: 132px
-$icon_shops-small-total-height: 122px
+$icon_shops-small-total-width: 146px
+$icon_shops-small-total-height: 130px
 $icon_shops-small-image: 'sprite.png'
-$icon_shops-small: 120px 80px -120px -80px 10px 14px 132px 122px 'sprite.png' 'icon_shops-small'
+$icon_shops-small: 132px 81px -132px -81px 10px 14px 146px 130px 'sprite.png' 'icon_shops-small'
 $icon_size-name: 'icon_size'
-$icon_size-x: 26px
+$icon_size-x: 47px
 $icon_size-y: 72px
-$icon_size-offset-x: -26px
+$icon_size-offset-x: -47px
 $icon_size-offset-y: -72px
 $icon_size-width: 22px
 $icon_size-height: 15px
-$icon_size-total-width: 132px
-$icon_size-total-height: 122px
+$icon_size-total-width: 146px
+$icon_size-total-height: 130px
 $icon_size-image: 'sprite.png'
-$icon_size: 26px 72px -26px -72px 22px 15px 132px 122px 'sprite.png' 'icon_size'
+$icon_size: 47px 72px -47px -72px 22px 15px 146px 130px 'sprite.png' 'icon_size'
 $icon_view-name: 'icon_view'
 $icon_view-x: 45px
 $icon_view-y: 0px
@@ -292,37 +391,37 @@ $icon_view-offset-x: -45px
 $icon_view-offset-y: 0px
 $icon_view-width: 49px
 $icon_view-height: 31px
-$icon_view-total-width: 132px
-$icon_view-total-height: 122px
+$icon_view-total-width: 146px
+$icon_view-total-height: 130px
 $icon_view-image: 'sprite.png'
-$icon_view: 45px 0px -45px 0px 49px 31px 132px 122px 'sprite.png' 'icon_view'
+$icon_view: 45px 0px -45px 0px 49px 31px 146px 130px 'sprite.png' 'icon_view'
 $icon_vk-hover-name: 'icon_vk-hover'
-$icon_vk-hover-x: 0px
-$icon_vk-hover-y: 72px
-$icon_vk-hover-offset-x: 0px
-$icon_vk-hover-offset-y: -72px
+$icon_vk-hover-x: 94px
+$icon_vk-hover-y: 52px
+$icon_vk-hover-offset-x: -94px
+$icon_vk-hover-offset-y: -52px
 $icon_vk-hover-width: 26px
 $icon_vk-hover-height: 16px
-$icon_vk-hover-total-width: 132px
-$icon_vk-hover-total-height: 122px
+$icon_vk-hover-total-width: 146px
+$icon_vk-hover-total-height: 130px
 $icon_vk-hover-image: 'sprite.png'
-$icon_vk-hover: 0px 72px 0px -72px 26px 16px 132px 122px 'sprite.png' 'icon_vk-hover'
+$icon_vk-hover: 94px 52px -94px -52px 26px 16px 146px 130px 'sprite.png' 'icon_vk-hover'
 $icon_vk-name: 'icon_vk'
-$icon_vk-x: 94px
-$icon_vk-y: 47px
-$icon_vk-offset-x: -94px
-$icon_vk-offset-y: -47px
+$icon_vk-x: 21px
+$icon_vk-y: 72px
+$icon_vk-offset-x: -21px
+$icon_vk-offset-y: -72px
 $icon_vk-width: 26px
 $icon_vk-height: 16px
-$icon_vk-total-width: 132px
-$icon_vk-total-height: 122px
+$icon_vk-total-width: 146px
+$icon_vk-total-height: 130px
 $icon_vk-image: 'sprite.png'
-$icon_vk: 94px 47px -94px -47px 26px 16px 132px 122px 'sprite.png' 'icon_vk'
-$spritesheet-width: 132px
-$spritesheet-height: 122px
+$icon_vk: 21px 72px -21px -72px 26px 16px 146px 130px 'sprite.png' 'icon_vk'
+$spritesheet-width: 146px
+$spritesheet-height: 130px
 $spritesheet-image: 'sprite.png'
-$spritesheet-sprites: $icon_car $icon_check $icon_color $icon_edit $icon_fb-hover $icon_fb $icon_hurt-on $icon_hurt $icon_hurt_prod-on $icon_hurt_prod $icon_insta-hover $icon_insta $icon_left $icon_location $icon_novelty-small $icon_novelty $icon_personal-small $icon_phone-small $icon_right $icon_ruler $icon_sale-small $icon_sale $icon_search $icon_shops-small $icon_size $icon_view $icon_vk-hover $icon_vk
-$spritesheet: 132px 122px 'sprite.png' $spritesheet-sprites
+$spritesheet-sprites: $icon_add_to_cart $icon_car $icon_card $icon_check $icon_clock $icon_color $icon_delivery $icon_edit $icon_eye-hidden $icon_eye $icon_fb-hover $icon_fb $icon_hurt-on $icon_hurt $icon_hurt_prod-on $icon_hurt_prod $icon_insta-hover $icon_insta $icon_left $icon_location-color $icon_location $icon_novelty-small $icon_novelty $icon_percent $icon_personal-small $icon_phone-small-dark $icon_phone-small $icon_right $icon_ruler $icon_sale-small $icon_sale $icon_search $icon_shops-small $icon_size $icon_view $icon_vk-hover $icon_vk
+$spritesheet: 146px 130px 'sprite.png' $spritesheet-sprites
 
 /*
   The provided mixins are intended to be used with the array-like variables
