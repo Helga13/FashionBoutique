@@ -89,28 +89,28 @@ $(document).ready(function () {
     slidesToScroll: 6,
      responsive: [
     {
-      breakpoint: 1366,
+      breakpoint: 1367,
       settings: {
         slidesToShow: 5,
         slidesToScroll: 5
       }
     },
     {
-      breakpoint: 992,
+      breakpoint: 993,
       settings: {
         slidesToShow: 4,
         slidesToScroll: 4
       }
     },
     {
-      breakpoint: 767,
+      breakpoint: 768,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 601,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2
@@ -160,10 +160,10 @@ $(document).ready(function () {
       
       $(this).addClass('active').siblings().removeClass('active');
       var that = this;
-      $('.my-foto-container').fadeOut(600, function(){
+      $('.my-foto-container').fadeOut(300, function(){
       $(this).attr('src',             $(that).attr('src'))              // путь до small картинки
             .attr('data-large',     $(that).attr('data-large'))       // путь до big картинки					
-            .fadeIn(1000);				
+            .fadeIn(300);				
     });
   });
   

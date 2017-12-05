@@ -437,6 +437,7 @@ nav{
     width: 205px;
     overflow: hidden;
     opacity: 0;
+    z-index: 1;
     transition: max-width .3s ease, opacity .3s ease;
     &.visible{
       max-width: 205px;
@@ -452,6 +453,9 @@ footer{
   background-color: #dfdfdf;
   overflow: hidden;
   padding: 18px 0;
+  .footer_item{
+    display: inline-block;
+  }
   .footer_logo{
     width: 50px;
     font-size: 0;
@@ -601,7 +605,7 @@ footer{
       background: url('../img/icons/icon_left.png') left 24px center no-repeat;
     }
     &.next{
-      padding: 10px 37px 10px 23px;
+      padding: 10px 36px 10px 24px;
       background: url('../img/icons/icon_right.png') right 24px center no-repeat;
     }
   }
@@ -865,6 +869,7 @@ footer{
 .left_catalog_col{
   width: 240px;
   padding-top: 43px;
+  float: left;
   .info_block{
     margin: 0 -2.5px;
   }
@@ -917,11 +922,11 @@ footer{
   }
   .novelty{
     padding-left: 40px;
-    background: url(../img/icons/icon_novelty.png) left 10px top 13px no-repeat; 
+    background: url(../img/icons/icon_novelty.png) left 10px top 13px no-repeat, url(../img/icons/icon_right.png) right 13px center no-repeat; 
   }
   .sale{
     padding-left: 40px;
-    background: url(../img/icons/icon_sale.png) left 10px top 15px no-repeat; 
+    background: url(../img/icons/icon_sale.png) left 10px top 15px no-repeat, url(../img/icons/icon_right.png) right 13px center no-repeat; 
   }
   .mark{
     color: #fff;
@@ -1273,7 +1278,8 @@ footer{
   text-align: center;
 }
 
-.add_to_card{
+.add_to_card,
+.show_goods{
   background: #9964c2;
   overflow: hidden;
   box-shadow: 0px 0px 7px 0px rgba(153, 100, 194, 1),inset 0px 0px 3px 0px rgba(51, 51, 51, .1);
@@ -1309,6 +1315,11 @@ footer{
   &:active:before{
     transform: translateX(-100%);
   }
+}
+
+.product_catalog .show_goods{
+  display: none;
+  visibility: hidden;
 }
 
 .attributes_block{
