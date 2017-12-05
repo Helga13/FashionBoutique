@@ -89,6 +89,9 @@
     width: 320px;
     padding: 9px 5px 29px;
   }
+  .icon_close{
+    left: 15px;
+  }
   header{
    .burger_menu,
    .favorites,
@@ -425,9 +428,6 @@
   }
   .menu_content{
     width: 240px;
-  }
-  .icon_close{
-    left: 15px;
   }
   .wrap,
   .col{
